@@ -1,0 +1,62 @@
+
+
+
+#slideshow {
+    width: 400px; /* half of the image's width for better display on high DPI screens */
+    height: 880px;/* half of the image's height for better display on high DPI screens */
+    margin: auto;
+    position: relative;
+}
+  
+#slideshow img {
+    position: absolute;
+    animation: slideshow 20s infinite;
+    opacity: 0;
+    width: 100%;
+    height: 100%;
+}
+@keyframes slideshow {
+    25% {
+      opacity: 1;
+    }
+  
+    40% {
+      opacity: 0;
+    }
+}
+  
+  
+h1 {
+    text-align: center;
+}
+  
+body p {
+    text-align: center;
+    color: palevioletred;
+  
+}
+  
+  
+a {
+    background-color: deeppink;
+    color: white;
+    border: 20px 20px 20px 20px;
+    padding: 10px 10px 10px 10px;
+    border-radius: 5px;
+    text-decoration: none;
+    text-align: center;
+    align-items: center;
+}
+  
+body {
+    background-color: #f0f0bc;
+    width: 90vw;
+    margin: 1% 1% 1% 1%;
+    align-content: jusify;
+  
+}
+h1 {
+    color: deeppink;
+    text-align: center;
+    text-decoration: none;
+}
