@@ -69,4 +69,9 @@ h1 {
   text-decoration: none;
   display: block;
 }
+iframe{
+  display: block;
+  align-items: center;
+  align-content: center;
+}
 
